@@ -40,7 +40,7 @@
             var marker = generateMarker(dataToPlot[i][0], dataToPlot[i][1], dataToPlot[i][2], dataToPlot[i][3]);
             marker.setMap(map);
 
-            var contentString = "<div> <h1 style='text-align: center'> " + dataToPlot[i][2] + "</h1> <img width='480px' src='" + dataToPlot[i][3] + "'/></div>"
+            var contentString = "<div> <h1 style='text-align: center'> " + dataToPlot[i][2] + "</h1> <img width='320px' src='" + dataToPlot[i][3] + "'/></div>"
             var infowindow = new google.maps.InfoWindow({
                 content: contentString,
             });
